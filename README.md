@@ -1,4 +1,4 @@
-# netherite-pickaxe
+# Netherite Pickaxe
 
 ![image](https://github.com/user-attachments/assets/8422a2cb-3b90-4be1-b37d-c7e854de3a22)
 
