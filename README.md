@@ -6,7 +6,7 @@ This script searches for specified keywords within a Git repository, including b
 
 The name comes from the git method used in searching logs [Docs](https://git-scm.com/book/en/v2/Git-Tools-Searching), being that the idea of this is to search git repos extensively, it is more of a netherite pickaxe.
 
-This can also be used to search files in a normal repository, using the --not-repo flag set. 
+This can also be used to search files in a normal directory thats not a git folder, using the --not-repo flag set. 
 
 ## Installation
 
