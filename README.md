@@ -4,6 +4,8 @@
 
 This script searches for specified keywords within a Git repository, including both file contents and commit messages. It supports searching in both local and remote repositories and provides options for exact matches.
 
+The name comes from the git method used in searching logs [Docs](https://git-scm.com/book/en/v2/Git-Tools-Searching), being that the idea of this is to search git repos extensively, it is more of a netherite pickaxe
+
 ## Installation
 
 To use this script, ensure you have the following prerequisites:
