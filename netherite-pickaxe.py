@@ -135,7 +135,7 @@ def usage():
     print()
     print(colour_print("Options:", blue))
     print("     -s, --substring      Search for substring keyword matches instead of exact.")
-    print("     -l, --long-format    Dont print out messages if no matches are found.")
+    print("     -l, --long-format    Print out messages showing no matches are found.")
     print("     -i, --include-all    Dont exclude file extensions specified in config.py.")
     print("     -n, --not-repo       Will do a file search only, for non git initialised folder directorys.")
     print("     -h, --help           Display usage.")
