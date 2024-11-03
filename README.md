@@ -59,8 +59,13 @@ python3 netherite-pickaxe.py <repo_path> [-s, --substring] [-l, --long-format] [
 
 - **Remote Repository:**
 
+This clones the repo into a tempary directory
+
   ```bash
   python3 netherite-pickaxe.py https://github.com/user/repo.git
+  ```
+  ```bash
+  python3 netherite-pickaxe.py git@github.com:user/rep.git
   ```
 - **Not Git Local Directory:**
 
