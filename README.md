@@ -34,7 +34,7 @@ python netherite-pickaxe.py <repo_path> [-s, --substring] [-l, --long-format] [-
 ## Options
 
 - `-s, --substring`: Search for exact keyword matches instead of substrings.
-- `-l, --long-format`: Don't print out messages if no matches are found.
+- `-l, --long-format`: Print out messages showing no matches are found.
 - `-i, --include-all`: Dont exclude file extensions specified in config.py.
 - `-n --not-repo`: Will do a file search only, for non git initialised folder directorys.
 - `-h --help`: Get help.
