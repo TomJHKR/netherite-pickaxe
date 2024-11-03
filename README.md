@@ -44,17 +44,17 @@ python netherite-pickaxe.py <repo_path> [-s, --substring] [-l, --long-format] [-
 - **Local Repository:**
   
   ```bash
-  python netherite-pickaxe /path/to/local/repo
+  python netherite-pickaxe.py /path/to/local/repo
   ```
 
 - **Remote Repository:**
 
   ```bash
-  python netherite-pickaxe https://github.com/user/repo.git
+  python netherite-pickaxe.py https://github.com/user/repo.git
   ```
 - **Not Git Local Directory:**
 
   ```bash
-  python netherite-pickaxe /path/to/folder --not-repo
+  python netherite-pickaxe.py /path/to/folder --not-repo
   ```
 
