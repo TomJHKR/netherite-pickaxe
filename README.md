@@ -24,7 +24,7 @@ pip install GitPython
 ## Usage
 
 ```bash
-python netherite-pickaxe.py <repo_path> [--substring] [--long-format] [--include-all] [--not-repo]
+python netherite-pickaxe.py <repo_path> [-s, --substring] [-l, --long-format] [-i, --include-all] [-n, --not-repo]
 ```
 
 ## Arguments
@@ -33,10 +33,11 @@ python netherite-pickaxe.py <repo_path> [--substring] [--long-format] [--include
   
 ## Options
 
-- `--substring`: Search for exact keyword matches instead of substrings.
-- `--long-format`: Don't print out messages if no matches are found.
-- `--include-all`: Dont exclude file extensions specified in config.py.
-- `--not-repo`: Will do a file search only, for non git initialised folder directorys.
+- `-s, --substring`: Search for exact keyword matches instead of substrings.
+- `-l, --long-format`: Don't print out messages if no matches are found.
+- `-i, --include-all`: Dont exclude file extensions specified in config.py.
+- `-n --not-repo`: Will do a file search only, for non git initialised folder directorys.
+- `-h --help`: Get help.
 
 ## Examples
 
