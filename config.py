@@ -11,7 +11,45 @@ excluded_extensions = [
     '.pptx',
     '.mp4',
     '.mp3',
+    '.webp',
 ]
+# List of files to check
+important_filenames = [
+    'config.json',
+    'config.yml',
+    'config.yaml',
+    'settings.py',
+    'secrets.json',
+    'secrets.yml',
+    'credentials.json',
+    'credentials.yml',
+    'env',
+    '.env',
+    '.venv',
+    'venv',
+    'credentials.txt',
+    'database.db',
+    'token.json',
+    'api_keys.json',
+    'private_key.pem',
+    'public_key.pem',
+    'ssh_config',
+    'id_rsa',
+    'id_rsa.pub',
+    'docker-compose.override.yml',
+    'local_settings.py',
+    'appsettings.json',
+    'appsettings.Development.json',
+    'appsettings.Production.json',
+    'secret.json',
+    'user_secrets.json',
+    'auth.json',
+    'firebase-config.json',
+    'webhook_secret.txt',
+    'keys.json',
+    'passwords.txt',
+]
+
 
 # List of keywords for searching
 keywords = [

@@ -40,14 +40,17 @@ python3 netherite-pickaxe.py <repo_path> [-s, --substring] [-l, --long-format] [
 ## Arguments
 
 - `<repo_path>`: Path to the Git repository or URL of the remote repository.
+- `-S, --single-keyword <keyword>`: Search for a single keyword only.
   
 ## Options
 
+- `-S, --single-keyword`: Used to search a single keyword rather than using the list.
 - `-s, --substring`: Search for exact keyword matches instead of substrings.
 - `-l, --long-format`: Print out messages showing no matches are found.
 - `-i, --include-all`: Dont exclude file extensions specified in config.py.
-- `-n --not-repo`: Will do a file search only, for non git initialised folder directorys.
-- `-h --help`: Get help.
+- `-n, --not-repo`: Will do a file search only, for non git initialised folder directorys.
+- `-d, --deep-search`: Used to perform an extensive search which includes all commits and differences, can take a while.
+- `-h, --help`: Get help.
 
 ## Examples
 
