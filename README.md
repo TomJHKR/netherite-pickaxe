@@ -65,7 +65,7 @@ This clones the repo into a tempary directory
   python3 netherite-pickaxe.py https://github.com/user/repo.git
   ```
   ```bash
-  python3 netherite-pickaxe.py git@github.com:user/rep.git
+  python3 netherite-pickaxe.py git@github.com:user/repo.git
   ```
 - **Not Git Local Directory:**
 
