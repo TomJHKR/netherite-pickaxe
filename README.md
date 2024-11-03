@@ -34,7 +34,7 @@ pip install GitPython
 ## Usage
 
 ```bash
-python3 netherite-pickaxe.py <repo_path> [-s, --substring] [-l, --long-format] [-i, --include-all] [-n, --not-repo]
+python3 netherite-pickaxe.py <repo_path> [-S, --single-keyword <keyword>] [-s, --substring] [-l, --long-format] [-i, --include-all] [-n, --not-repo]
 ```
 
 ## Arguments
