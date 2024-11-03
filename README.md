@@ -4,8 +4,9 @@
 
 ![image](https://github.com/user-attachments/assets/8422a2cb-3b90-4be1-b37d-c7e854de3a22)
 
-Often times users will leave information in git repositiorys that shouldnt be included
-This tool is used to audit those accidential addtions to ensure that you arent leaking any exploitable inforamation. This could also be used for ethical hacking.
+Often times users will leave information in git repositiorys that shouldnt be included.
+
+This tool is used to audit those accidential additions to ensure that you arent leaking any exploitable inforamation. This could also be used for ethical hacking.
 
 This script can
 - Search files for specified keywords within a Git repository, including both file contents and commit messages. It supports searching in both local and remote repositories and provides options for exact matches.
@@ -33,7 +34,7 @@ pip install GitPython
 ## Usage
 
 ```bash
-python netherite-pickaxe.py <repo_path> [-s, --substring] [-l, --long-format] [-i, --include-all] [-n, --not-repo]
+python3 netherite-pickaxe.py <repo_path> [-s, --substring] [-l, --long-format] [-i, --include-all] [-n, --not-repo]
 ```
 
 ## Arguments
@@ -53,17 +54,17 @@ python netherite-pickaxe.py <repo_path> [-s, --substring] [-l, --long-format] [-
 - **Local Repository:**
   
   ```bash
-  python netherite-pickaxe.py /path/to/local/repo
+  python3 netherite-pickaxe.py /path/to/local/repo
   ```
 
 - **Remote Repository:**
 
   ```bash
-  python netherite-pickaxe.py https://github.com/user/repo.git
+  python3 netherite-pickaxe.py https://github.com/user/repo.git
   ```
 - **Not Git Local Directory:**
 
   ```bash
-  python netherite-pickaxe.py /path/to/folder --not-repo
+  python3 netherite-pickaxe.py /path/to/folder --not-repo
   ```
 
