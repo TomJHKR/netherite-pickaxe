@@ -98,6 +98,24 @@ This clones the repo into a temporary directory
   ```bash
   python3 netherite-pickaxe.py /path/to/folder --not-repo
   ```
+
+### Recommendations
+
+Its recommended to perform a standard search first using:
+ ```bash
+  python3 netherite-pickaxe.py <repo_path>
+  ```
+
+If that doesnt give the desired results, use the -d flag
+ ```bash
+  python3 netherite-pickaxe.py <repo_path> -d
+  ```
+
+And to get a super extensive search use the -d and -s flags:
+ ```bash
+  python3 netherite-pickaxe.py <repo_path> -d -s
+  ```
+
 ## Configuration
 
 Before running the script, configure the following settings in the `config.py` file:
