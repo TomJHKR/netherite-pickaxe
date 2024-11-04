@@ -49,7 +49,7 @@ pip install GitPython
 To install **Netherite Pickaxe**, clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/yourusername/netherite-pickaxe.git
+git clone https://github.com/tomjhkr/netherite-pickaxe.git
 cd netherite-pickaxe
 pip install -r requirements.txt
 ```
