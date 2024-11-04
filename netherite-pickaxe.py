@@ -47,6 +47,7 @@ def search_filenames(repo, not_repo):
             found = True
 
 def search_filenames_in_diff(repo):
+    found = False
     main_repo_path = repo.working_dir  # Assuming main repo path is the repo's working directory
     for commit in repo.iter_commits():
         # Check for the keyword in the commit diff
@@ -223,10 +224,15 @@ def main(repo_path, single_keyword, substring, long, include, not_repo,deep):
             get_files_recursive(repo_path)
 
         print("")
-        search_filenames(repo, not_repo)
+        filenames_wd = search_filenames(repo, not_repo)
+        if not filenames_wd and long:
+            print(colour_print("No important files found in current working directory", red))
         if deep and not not_repo:
-            search_filenames_in_diff(repo)
+            filenames_diff = search_filenames_in_diff(repo)
+            if not filenames_diff and long:
+                print(colour_print("No important files found in commit diffs directories", red))
         for keyword in assign_keywords:
+            print("")
             print(f"Searching for keyword: {colour_print(colour_print(keyword, blue),negative)}")
             file_search = search_in_files(repo, keyword, substring, include, not_repo)
             if not file_search and long:
